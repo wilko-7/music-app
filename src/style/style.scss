@@ -1,0 +1,125 @@
+$screenSizePhone: 450px;   
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    //background: url("../picture/drawing1.1.png") no-repeat center center fixed;
+    //background-size: cover;
+    background-color: rgb(177, 177, 177);
+    }
+
+.App {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 6rem 40rem 10rem; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "navbar navbar navbar"
+      "content content content"
+      "footer footer footer"
+      ; 
+}
+
+
+
+.navbar {
+    display: flex;
+    width: 45rem;
+    grid-area: navbar;
+    justify-content: space-between;
+    margin: 1rem;
+    background: rgba(225, 225, 225, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(225, 225, 225, 1);
+    justify-self: center;
+}
+
+@media (max-width: $screenSizePhone) {
+    .navbar{
+        width: 20rem;;
+    }
+}
+
+.content {
+    grid-area: content;
+    justify-self: center;
+    width: 45rem;
+    margin: 1rem;
+    background: rgba(225, 225, 225, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(225, 225, 225, 1);
+    .playercontrols{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin:  0rem 10rem;
+    }
+    .musicPlayer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10rem 10rem ;
+    }
+    .soundprogression {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin:     0rem 10rem;
+    }
+  
+}
+
+@media screen and (max-width: $screenSizePhone) {
+    .content{
+        width: 20rem;
+    }
+}
+
+.footer {
+    justify-self: center;
+    grid-area: footer;
+    width: 45rem;
+    margin: 1rem;
+    background: rgba(225, 225, 225, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(225, 225, 225, 1);
+}
+
+@media screen and (max-width: $screenSizePhone) {
+    .footer{
+        width: 20rem;;
+    }
+}
+
+.side {
+    grid-area: side;
+    margin: 1rem;
+    background: rgba(225, 225, 225, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(225, 225, 225, 1);
+
+}
+
+.links {
+    ul{
+    list-style-type: none;
+    }
+}
+
