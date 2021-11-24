@@ -1,6 +1,6 @@
 const Song = () => {
 
-    return(
+    return (
         <div className="musicPlayer">
             <h4>playing now:</h4>
             <audio></audio>
