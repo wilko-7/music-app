@@ -1,10 +1,9 @@
 import { useState } from "react"
-import Sound from 'react-sound';
 
 const Player = () => {
 
     const [music, setmusic] = useState(false)
-    const [soundMute, setSoundMute] = useState()
+    const [soundMute, setSoundMute] = useState(false)
 
     const isPlaying = () => {
         setmusic(!music)
