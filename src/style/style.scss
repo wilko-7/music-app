@@ -1,4 +1,4 @@
-$screenSizePhone: 700px;   
+$screenSizePhone: 800px;   
 
 * {
     margin: 0;
@@ -8,9 +8,10 @@ $screenSizePhone: 700px;
 body {
     //background: url("../picture/drawing1.1.png") no-repeat center center fixed;
     //background-size: cover;
-    //background-color: (177, 177, 177);
+    //background-color: rgb(192, 193, 207);
     background: rgb(139,137,166);
     background: linear-gradient(90deg, rgba(139,137,166,1) 0%, rgba(82,82,105,1) 35%, rgba(102,142,150,1) 100%);
+    color: rgb(44, 44, 44);
     }
 
 .App {
@@ -125,3 +126,8 @@ body {
     }
 }
 
+.circle {
+    display:  flex;
+    justify-content: center;
+    align-self: center
+}

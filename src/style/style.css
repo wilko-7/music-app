@@ -7,6 +7,7 @@ body {
   background: #8b89a6;
   background: -webkit-gradient(linear, left top, right top, from(#8b89a6), color-stop(35%, #525269), to(#668e96));
   background: linear-gradient(90deg, #8b89a6 0%, #525269 35%, #668e96 100%);
+  color: #2c2c2c;
 }
 
 .App {
@@ -45,7 +46,7 @@ body {
   justify-self: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .navbar {
     width: 20rem;
   }
@@ -105,7 +106,7 @@ body {
   margin: 25rem 10rem 0rem 10rem;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .content {
     width: 20rem;
   }
@@ -129,7 +130,7 @@ body {
   border: 1px solid rgba(198, 198, 198, 0.3);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .footer {
     width: 20rem;
   }
@@ -149,5 +150,16 @@ body {
 
 .links ul {
   list-style-type: none;
+}
+
+.circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=style.css.map */
