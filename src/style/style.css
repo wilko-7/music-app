@@ -45,7 +45,7 @@ body {
   justify-self: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 700px) {
   .navbar {
     width: 20rem;
   }
@@ -105,7 +105,7 @@ body {
   margin: 25rem 10rem 0rem 10rem;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .content {
     width: 20rem;
   }
@@ -129,7 +129,7 @@ body {
   border: 1px solid rgba(198, 198, 198, 0.3);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   .footer {
     width: 20rem;
   }

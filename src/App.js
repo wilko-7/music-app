@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      {/*
+      
       <div className="navbar">
         <h1>navbar</h1>
         <nav className="links">
@@ -19,17 +19,15 @@ function App() {
             </ul>
         </nav>
       </div>
-      */}
+      
       <div className="content">
         <Song />
         <Player />
       </div>
-      {
-
-        //<div className="footer">
-          //<h1>footer</h1>
-       // </div>
-      }
+        <div className="footer">
+          <h1>footer</h1>
+       </div>
+    
     </div>
   );
 }
